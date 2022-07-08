@@ -1,0 +1,34 @@
+body{
+    font-family: Helvetica;
+    text-align: center;
+    background-color: rgba(8, 8, 8, 0.568);
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.308);
+}
+ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+ul li{
+    margin-right: 10px;
+}
+h1{
+    font-size: 32px;
+}
+img{
+    border-radius: 5px;
+    border: 2px solid rgba(0, 0, 255, 0.377);
+}
+footer{
+    padding: 20px;
+    border-top: 3px solid rgba(0, 0, 0, 0.308);
+    margin-top: 20px;
+}
